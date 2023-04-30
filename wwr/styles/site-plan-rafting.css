@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&family=kanit&display=swap');
 
 :root {
     --primary-color: #1789CB;
@@ -6,7 +6,7 @@
     --accent1-color: #15616D;
     --accent2-color: #C0E6DE;
 
-    --heading-font: "mukta", serif;
+    --heading-font: "Tangerine", serif;
     --paragraph-font: "kanit", serif;
 
     --nav-backgroung-color: #4D668C;
