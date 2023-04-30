@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&displayswap");
+
+:root {
+    --primary-color: #1789CB;
+    --secondary-color:  #44788F;
+    --accent1-color: #15616D;
+    --accent2-color: #C0E6DE;
+
+    --heading-font: "mukta", serif;
+    --paragraph-font: "kanit", serif;
+
+    --nav-backgroung-color: #4D668C;
+    --nav-link-color: #C6D9DF;
+    --nav-hover-link-color: #2B63C2;
+    --nav-hover-background-color: #22476B;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1500px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-backgroung-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
