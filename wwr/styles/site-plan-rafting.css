@@ -18,20 +18,18 @@
 body {
     font-family: var(--paragraph-font);
     max-width: 1500px;
-    padding: 0px;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--blue-color);
-    color-scheme: var(--greenblue-color);
 }
 
 
 header {
     padding: 20px;
     background-color: var(--greenishblue-color);
-    color-scheme: var(--white-color);
 }
 
 p {
