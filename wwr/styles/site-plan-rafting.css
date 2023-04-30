@@ -36,6 +36,11 @@ header {
     background-color: var(--darkgreenblue-color);
 }
 
+header {
+    padding: 20px;
+    background-color: var(--white-color);
+}
+
 p {
     padding: 25px;
 }
