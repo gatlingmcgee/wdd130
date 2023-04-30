@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&family=kanit&display=swap');
 
 :root {
-    --primary-color: #1789CB;
-    --secondary-color:  #44788F;
-    --accent1-color: #15616D;
-    --accent2-color: #C0E6DE;
+    --blue-color: #1789CB;
+    --greenblue-color:  #44788F;
+    --greenishblue-color: #15616D;
+    --white-color: #C0E6DE;
 
     --heading-font: "Tangerine", serif;
     --paragraph-font: "kanit", serif;
@@ -23,14 +23,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--blue-color);
+    color-scheme: var(--greenblue-color);
 }
 
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--greenishblue-color);
+    color-scheme: var(--white-color);
 }
 
 p {
