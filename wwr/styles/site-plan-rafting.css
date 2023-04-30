@@ -2,8 +2,8 @@
 
 :root {
     --blue-color: #1789CB;
-    --greenblue-color:  #44788F;
-    --greenishblue-color: #15616D;
+    --lightgreenblue-color:  #44788F;
+    --darkgreenblue-color: #15616D;
     --white-color: #C0E6DE;
 
     --heading-font: "Tangerine", serif;
@@ -26,10 +26,14 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--blue-color);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--lightgreenblue-color);
+}
 
 header {
     padding: 20px;
-    background-color: var(--greenishblue-color);
+    background-color: var(--darkgreenblue-color);
 }
 
 p {
