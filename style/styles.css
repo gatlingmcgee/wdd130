@@ -1,6 +1,6 @@
 * {
-margin: 0px;
-padding: 0px;
+margin: 0;
+padding: 0;
 box-sizing: border-box;
 }
 
@@ -25,13 +25,12 @@ h1 {
 }
 
 main img {
-    position: absolute;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    right: 830px;
+    float: right;
 }
 
 p {
@@ -65,7 +64,7 @@ footer {
     text-align: center;
 }
 
-/*Class Selectors */
+/*Class Selectors*/
 
 .box {
     margin: 1rem;
