@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&family=kanit&display=swap');
 
 :root {
-    --blue-color: #1789CB;
-    --lightgreenblue-color:  #44788F;
-    --darkgreenblue-color: #15616D;
-    --white-color: #C0E6DE;
+    --primary-color: #1789CB;
+    --secondary-color:  #44788F;
+    --accent1-color: #15616D;
+    --accent2-color: #C0E6DE;
 
     --heading-font: "Tangerine", serif;
     --paragraph-font: "kanit", serif;
 
-    --ghost-background-color: #4D668C;
-    --sand-link-color: #C6D9DF;
-    --watch-hover-link-color: #2B63C2;
-    --pasture-hover-background-color: #22476B;
+    --nav-background-color: #4D668C;
+    --nav-link-color: #C6D9DF;
+    --nav-hover-link-color: #2B63C2;
+    --nav-hover-background-color: #22476B;
 }
 
 body {
@@ -23,22 +23,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--blue-color);
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--lightgreenblue-color);
+    color: var(--primary-color);
 }
 
 header {
     padding: 20px;
-    background-color: var(--darkgreenblue-color);
-}
-
-header {
-    padding: 20px;
-    background-color: var(--white-color);
+    background-color: var(--accent1-color);
 }
 
 p {
@@ -46,23 +36,23 @@ p {
 }
 
 nav {
-    background-color: var(--ghost-background-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: var(--sand-link-color);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: var(--sand-link-color);
+    color: var(--nav-link-color);
 }
 
 nav a:hover {
-    color: var(--watch-hover-link-color);
-    background-color: var(--pasture-hover-background-color);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
