@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&family=kanit&display=swap');
+
+:root {
+    --primary-color: #1789CB;
+    --secondary-color:  #44788F;
+    --accent1-color: #15616D;
+    --accent2-color: #C0E6DE;
+
+    --heading-font: "Tangerine", serif;
+    --paragraph-font: "kanit", serif;
+
+    --nav-background-color: #4D668C;
+    --nav-link-color: #C6D9DF;
+    --nav-hover-link-color: #2B63C2;
+    --nav-hover-background-color: #22476B;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1500px;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    position: absolute;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+}
+
+article {
+    background-color: rgb(156, 194, 238, 0.9);
+    position: absolute;
+}
+
+article img {
+    float: right;
+    padding: 10px
+
+}
+
+a {text-decoration: none; }
+
+.hero {
+    position: relative;
+}
+
+/* Class Selectors */
+
+.hero img {
+    display: block;
+    width: 10%;
+    height: auto;
+}
