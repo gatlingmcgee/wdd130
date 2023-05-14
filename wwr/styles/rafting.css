@@ -39,6 +39,9 @@ h1 {
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 article {
@@ -48,7 +51,8 @@ article {
 
 article img {
     float: right;
-    padding: 10px
+    padding: 20px;
+    max-width: 160px;
 
 }
 
@@ -56,12 +60,20 @@ a {text-decoration: none; }
 
 .hero {
     position: relative;
+    display: grid;
+    align-items: center;
+}
+
+figure {
+    display: flex;
+    width: 140px;
+    height: 140px;
 }
 
 /* Class Selectors */
 
 .hero img {
     display: block;
-    width: 10%;
+    width: 100%;
     height: auto;
 }
