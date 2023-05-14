@@ -24,6 +24,9 @@ body {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 200px 550px 200px;
 }
 
 p {
@@ -70,10 +73,34 @@ figure {
     height: 140px;
 }
 
+h2 {
+    font-family: var(--heading-font);
+    font-size: 40px;
+}
+
 /* Class Selectors */
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.history {
+    background-color: rgba(213, 233, 255, 0.986);
+    text-align: center;
+}
+
+.adventure {
+    text-align: center;
+}
+
+.pics {
+    background-color: rgba(213, 233, 255, 0.986);
+    height: 275px;
+    width: auto;
+}
+
+.sociallinks {
+    width: auto;
 }
