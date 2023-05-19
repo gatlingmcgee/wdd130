@@ -58,6 +58,10 @@ button:hover {
     background-color: darkgreen;
 }
 
+h1 {
+    text-align: center;
+}
+
 /* Class Selectors */
 
 .form-item {
