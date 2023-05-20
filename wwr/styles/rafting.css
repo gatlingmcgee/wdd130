@@ -29,6 +29,17 @@ header {
     grid-template-columns: 200px 550px 200px;
 }
 
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    height: 750px;
+}
+
 p {
     padding: 25px;
 }
@@ -37,6 +48,11 @@ h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     position: absolute;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    font-size: 40px;
 }
 
 nav {
@@ -73,9 +89,35 @@ figure {
     height: 140px;
 }
 
-h2 {
-    font-family: var(--heading-font);
-    font-size: 40px;
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+
+button {
+    margin: 5rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 400px;
+    position: relative;
+    right: -30px;
+    bottom: 50px;
+}
+
+button:hover {
+    background-color: limegreen;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+    font-family: Roboto, arial, sans-serif;
 }
 
 /* Class Selectors */
@@ -103,4 +145,13 @@ h2 {
 
 .sociallinks {
     width: auto;
+}
+
+.column1 {
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.form-item {
+    display: grid;
 }
