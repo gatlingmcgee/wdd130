@@ -109,7 +109,7 @@ button {
     width: 500px;
     position: relative;
     right: 85px;
-    bottom: 650px;
+    bottom: 550px;
 }
 
 button:hover {
@@ -175,5 +175,12 @@ map {
 label[for="q5"] {
     display: grid;
     align-items: center;
+}
+
+.h1-contact {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    position: absolute;
+    top: 200px;
 }
 
