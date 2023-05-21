@@ -37,7 +37,8 @@ form {
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
-    height: 750px;
+    height: 450px;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 p {
@@ -48,6 +49,7 @@ h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     position: absolute;
+    top: 80px;
 }
 
 h2 {
@@ -97,17 +99,17 @@ input[type="checkbox"] {
 
 
 button {
-    margin: 5rem;
+    margin: 10rem;
     background-color: navy;
     color: #fff;
     border: none;
     border-radius: .5rem;
     padding: 1rem;
     font-size: 1rem;
-    width: 400px;
+    width: 500px;
     position: relative;
-    right: -30px;
-    bottom: 50px;
+    right: 85px;
+    bottom: 650px;
 }
 
 button:hover {
@@ -141,6 +143,8 @@ label {
     background-color: rgba(213, 233, 255, 0.986);
     height: 275px;
     width: auto;
+    display: grid;
+    align-items: center;
 }
 
 .sociallinks {
@@ -149,9 +153,27 @@ label {
 
 .column1 {
     grid-template-rows: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 1px;
 }
 
 .form-item {
     display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
 }
+
+map {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    height: 500px;
+}
+
+label[for="q5"] {
+    display: grid;
+    align-items: center;
+}
+
